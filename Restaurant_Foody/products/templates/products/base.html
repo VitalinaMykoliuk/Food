@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+
+  <head>
+    <title>Foody &mdash; Onepage Website Template by Free-Template.co</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Free-Template.co" />
+
+    <link rel="shortcut icon" href="ftco-32x32.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static 'vendor/css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'vendor/css/animate.css' %}">
+    <link rel="stylesheet" href="{% static 'vendor/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'vendor/css/aos.css' %}">
+
+    <link rel="stylesheet" href="{% static 'vendor/css/magnific-popup.css' %}">
+
+
+    <link rel="stylesheet" href="{% static 'vendor/fonts/ionicons/css/ionicons.min.css' %}">
+    <link rel="stylesheet" href="{% static 'vendor/fonts/fontawesome/css/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'vendor/fonts/flaticon/font/flaticon.css' %}">
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="{% static 'vendor/css/style.css' %}">
+  </head>
+<body>
+<!-- loader -->
+    <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#cf1d16"/></svg></div>
+    {% block content %}{% endblock %}
+    <script src="{% static 'vendor/js/jquery-3.2.1.min.js' %}"></script>
+    <script src="{% static 'vendor/js/popper.min.js' %}"></script>
+    <script src="{% static 'vendor/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'vendor/js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'vendor/js/jquery.waypoints.min.js' %}"></script>
+    <script src="{% static 'vendor/js/aos.js' %}"></script>
+
+    <script src="{% static 'vendor/js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'vendor/js/magnific-popup-options.js' %}"></script>
+
+
+    <script src="{% static 'vendor/js/main.js' %}"></script>
+</body>
+</html>
